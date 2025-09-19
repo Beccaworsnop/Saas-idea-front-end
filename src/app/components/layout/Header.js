@@ -33,7 +33,7 @@ export const Header = () => {
             ))}
           </div>
 
-          {/* Mobile Menu Button */}
+          
           <button 
             className="md:hidden text-white" 
             onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -43,7 +43,7 @@ export const Header = () => {
           </button>
         </div>
 
-        {/* Mobile Navigation */}
+        
         {isMenuOpen && (
           <div className="md:hidden py-4 border-t border-cyan-500/20">
             <div className="flex flex-col space-y-4">

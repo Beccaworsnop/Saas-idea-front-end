@@ -1,4 +1,4 @@
-import { Header } from './components/layout/header'
+import { Header } from './components/layout/Header'
 import { Footer } from './components/layout/footer'
 import { HeroSection } from './components/layout/sections/HeroSection'
 import { AboutSection } from './components/layout/sections/AboutSection'
