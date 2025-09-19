@@ -1,4 +1,4 @@
-import { getServiceIcon } from '../Icons/Icons'
+import { getServiceIcon } from '../Icons/icons'
 
 export const ServiceCard = ({ service }) => {
   const { title, description, icon } = service
